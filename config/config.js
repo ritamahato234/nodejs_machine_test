@@ -7,4 +7,4 @@ module.exports ={
     PORT:process.env.port,
 };
 
-console.log(process.env.dbUrl)
+// console.log(process.env.dbUrl)

@@ -3,7 +3,7 @@ const commonService = require("../helper/commonService")
 const questionSchema = require("../schema/questions");
 const mongoose = require("mongoose");
 const ObjectId = require("mongoose").Types.ObjectId;
-const multer = require('multer');
+
 
 const csvtojson = require('csvtojson');
 

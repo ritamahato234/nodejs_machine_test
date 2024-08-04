@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
-const questionsSchema = new Schema(
+
+const questionsSchema = new mongoose.Schema(
   {
     text: { type: String, required: true },
     categories: [{ type: mongoose.Schema.Types.ObjectId, ref: 'category' }]

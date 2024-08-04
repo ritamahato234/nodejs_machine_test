@@ -37,7 +37,7 @@ exports.login = async (req, res, next) => {
         return res.send({
           success: true,
           response: userDetails,
-          message: "Login successful",
+          message: "Logged in successfully",
         });
     } catch (err) {
       console.log(err);
