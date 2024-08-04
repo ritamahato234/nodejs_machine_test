@@ -6,13 +6,6 @@ const fs = require("fs");
 var path = require("path");
 
 
-/*old jwt
-exports.createUserAccessToken = (userTokenData) => {
-  return jwt.sign(userTokenData, config.secretKey, {
-    // expiresIn: "24h",
-  });
-};
-*/
 
 const commonService = require("./commonService");
 
